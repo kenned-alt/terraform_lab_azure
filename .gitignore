@@ -1,0 +1,21 @@
+# Terraform - estado e cache
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Variáveis sensíveis
+*.tfvars
+*.tfvars.json
+
+# Overrides e logs
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+crash.log
+
+# Configs locais
+terraform.rc
+.terraformrc
+``
